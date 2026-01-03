@@ -3,11 +3,14 @@
 
 
 
-## Instructor: ##
+## Instructors: ##
 Joel Welling
 welling@psc.edu
 
-Office hours are by appointment for now, by Zoom or in person (here in 300 SC room 394).
+Abby Noyce
+anoyce@andrew.cmu.edu
+
+Office hours for me (Welling) are by appointment for now, by Zoom or in person (here in 300 SC room 394).
 
 
 ### Some important things about me ###
@@ -126,13 +129,13 @@ scientific visualization.
 
 ## Mechanics ##
 
-We have a <a href="https://canvas.cmu.edu/courses/44862/pages/course-intro-and-mechanics?module_item_id=6003745" target="_blank">Canvas page</a> for:
+We have a <a href="https://canvas.cmu.edu/courses/51285/pages/course-intro-and-mechanics?module_item_id=6374513" target="_blank">Canvas page</a> for:
 * scheduling
 * assignments
 * homework hand-in, unless otherwise specified
 
-...and a <a href="https://github.com/jswelling/CMU-MS-DAS-Vis-S25" target="_blank">Github page</a> for:
-* the lectures (including this one), via <a href="https://jswelling.github.io/CMU-MS-DAS-Vis-S25/" target="_blank">"github pages"</a>
+...and a <a href="https://github.com/jswelling/CMU-MS-DAS-Vis-S26" target="_blank">Github page</a> for:
+* the lectures (including this one), via <a href="https://jswelling.github.io/CMU-MS-DAS-Vis-S26/" target="_blank">"github pages"</a>
 * source code and data
 * maybe group projects
 
@@ -143,7 +146,7 @@ We have a <a href="https://canvas.cmu.edu/courses/44862/pages/course-intro-and-m
 
 ## Homework Policy ##
 
-Let's take a moment to look at the [syllabus](https://canvas.cmu.edu/courses/44862/assignments/syllabus) sections on Evaluation and Late Homework.
+Let's take a moment to look at the [syllabus](https://canvas.cmu.edu/courses/51285/assignments/syllabus) sections on Evaluation and Late Homework.
 
 
 
