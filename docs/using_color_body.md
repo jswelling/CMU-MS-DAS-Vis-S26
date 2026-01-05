@@ -23,6 +23,12 @@ the table range, and looks up and returns a RGB (or RGBA) value.
 </span>
 
 
+## Color maps convert a scaler value to a color
+
+![simple color mapped image](images/simple_color_mapped_image.png)<br>
+
+
+
 
 ## Texture Maps are different.
 
