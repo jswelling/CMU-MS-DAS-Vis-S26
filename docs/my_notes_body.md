@@ -53,16 +53,9 @@ To Do:
 * GitHub assignment: add a note about dealing with nano/pico
 * Add some force to the prereqs.
 * Clarify that some things with points attached happen in class
-* "Where are we with matplotlib" assignment: make it explicit that they should
-  use the minimum date, not hard-code a minimum. Make it explicit that they
-  should use the *smoothed* curves in the final graph.
 
 
 To Do (2):
-* "Where are we with matplotlib" assignment: There was some confusion between
-  the across-counties median, Q1, and Q3 and the across-time 7-day running
-  average.  Clarify that they should take non-parametric stats first and then
-  do 7-day average across *all three* quantities, and graph those 3 rolling averages.
 * "Working with GGPlot" assignment: add a note that they should actually do
   it in ggplot.
 * "Working with GGPlot" assignment: maybe include patchworklib ?
@@ -88,29 +81,30 @@ To Do (5):
 * Intro/Syllabus: clarify that some points come from in-class exercises.
 
 
+
 ## Class Calendar:
 
-Class starts Tue Jan 14 and runs through Feb 27 with no break.
+Class starts Tue Jan 13 and runs through Feb 27 with no break.
 11AM - 12:20PM
 
-* Jan 14 (Tue): Block 1 part 1
-* Jan 16 (Thu): Block 1 part 2
-* Jan 21 (Tue): Git and GitHub
-* Jan 23 (Thu): Block 1 colors, Block 2 contours and ggplot
-* Jan 28 (Tue): Block 2 seaborn 1
-* Jan 30 (Thu): Block 2 seaborn 2
+* Jan 13 (Tue): Block 1 part 1
+* Jan 15 (Thu): Block 1 part 2
+* Jan 20 (Tue): Git and GitHub
+* Jan 22 (Thu): Block 1 colors, Block 2 contours and ggplot
+* Jan 27 (Tue): Block 2 seaborn 1
+* Jan 29 (Thu): Block 2 seaborn 2
 
 
-* Feb 4 (Tue) Block 3 maps 1; please install GraphViz and Gephi
-* Feb 6 (Thu): Block 3 maps 2, Block 4 web server
-* Feb 11 (Tue): Block 4 graphs (incl Brendan/Gephi); please install Tableau
-* Feb 13 (Thu): Block 5 (Tableau)
-* Feb 18 (Tue): Block 4 D3; please install VisIt
-* Feb 20 (Thu): Block 5 (Tableau) continued
+* Feb 3 (Tue) Block 3 maps 1; please install GraphViz and Gephi
+* Feb 5 (Thu): Block 3 maps 2, Block 4 web server
+* Feb 10 (Tue): Block 4 graphs (incl Brendan/Gephi); please install Tableau
+* Feb 12 (Thu): Block 4 D3; please install VisIt
+* Feb 17 (Tue): Block 5 (Tableau)
+* Feb 19 (Thu): Block 5 (Tableau) continued
 
 
-* Feb 25 (Tue): Block 5 (Tableau) day 3 (prev Block 6 (VisIt))
-* Feb 27 (Thu): Block 6 (VisIt)
+* Feb 24 (Tue): Block 5 (Tableau) day 3
+* Feb 26 (Thu): Block 6 (VisIt)
 
 
 

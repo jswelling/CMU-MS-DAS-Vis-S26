@@ -13,8 +13,8 @@ will use the California COVID dataset.
 ### A General Requirement
 
 Your code should work properly even if the order of the input data records changes.  If your code needs to find
-a specific row of data in a specific place, you're doing it wrong.  Ideally the code should work just fine if
-given a table from a different year!
+a specific row of data in a specific place, you're doing it wrong.  The code should work just fine if
+given a table from a different year. Do not hard-code the minimum year!
 
 
 
@@ -100,13 +100,16 @@ The individual day-to-day variations need to be smoothed for the viewer
 to make sense of the visualization.  We can do this with a 7-day running
 mean.
 
-The *pandas.DataFrame.rolling* method does this very elegantly, and can
+Use the running mean to create time-smoothed versions of the across-counties
+median, Q1, and Q3 curves. The *pandas.DataFrame.rolling* method does this
+very elegantly, and can
 be paired with *DataFrame.mean* to give the result we want.
 
 
 
 ### Step 7: Draw the final graph
 
+Use the smoothed median and IQR curves to draw the final graph.
 *plt.fill_between* can be used to fill the area between the Q1 and Q3
 curves.  Don't forget to draw your curves in the right order, so that
 the curves you want on top are drawn last.
