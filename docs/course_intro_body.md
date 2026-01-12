@@ -140,7 +140,7 @@ Today and Thursday:
 * Introduction and Perception
 * First assignment
 
-Next Week: Tableau
+Next Week: Emma Slayton, Tableau
 
 Tuesday and Thursday Jan 27 and 29:
 * Working with Color
