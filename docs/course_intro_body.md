@@ -45,7 +45,7 @@ I'm assuming that:
 necessary.
 * Everyone can run a Python program *outside* a Jupiter
 Notebook, like on a command line.
-* Everyone can edit files.
+* Everyone can edit files.  (Do you use VSCode?)
 
 If you are not comfortable doing any of these things, contact me after
 class and we will fix it.
@@ -55,6 +55,7 @@ class and we will fix it.
 * Can you download data from Github?
 * Can you clone a Github repository and run the code in it?
 * Can  you build a Conda or Pip environment from a requirements.txt file?
+* Can you push code to Github?
 * Have you ever reviewed and merged a PR?
 
 We will be doing a day on GitHub-based collaboration, because it's standard
@@ -124,6 +125,28 @@ We'll spend a few days on <a href="https://www.tableau.com/products/tableau">Tab
 
 ...and try out <a href="https://visit-dav.github.io/visit-website/index.html">VisIt</a>, a tool for very large scale
 scientific visualization.
+
+
+
+## The Next 3 Weeks ##
+
+Normally we would handle Tableau late in the class, when we've already
+covered the idioms it uses.  Circumstances have forced us to move the
+first 2/3 of the Tableau block forward to next week!  So this is the
+plan:
+
+
+Today and Thursday:
+* Introduction and Perception
+* First assignment
+
+Next Week: Tableau
+
+Tuesday and Thursday Jan 27 and 29:
+* Working with Color
+* GGPlot
+* Git and Github
+* in-class Github exercise
 
 
 
