@@ -57,7 +57,7 @@ this model.  The calculation is simple and easy to implement using neural
 networks.
 
 
-The big point here is that you cannot help but percieve the
+The big point here is that you cannot help but perceive the
 motion. Even when you know there is no actual motion, you still see
 it.  This calculation is taking place during preconscious processing,
 and its output is being sent to "you" as input.
