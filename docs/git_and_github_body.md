@@ -4,7 +4,7 @@
 
 ## Why are we doing this?
 
-* Because everone does version control.  Learning some good tools makes life easier.
+* Because everyone does version control.  Learning some good tools makes life easier.
 * Because people in data science jobs spend a *lot* of time doing this.
 * Because GitHub is the biggest and most popular repository of open source tools out there.
 * Because the resources for this class are on GitHub too.
@@ -178,7 +178,7 @@ git remote -v
 2. ...
 3. Editing within the repo
 
-Suppose you've edited a file and used `git add` to put the chenged file in the Indexed/Staged state.
+Suppose you've edited a file and used `git add` to put the changed file in the Indexed/Staged state.
 
 To turn your indexed files into a node on your local graph:
 ```
