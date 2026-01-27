@@ -294,33 +294,6 @@ The group leader will submit a PR to merge the updated branch back into Main.
 * The group leader will review the edit and merge the edit back into the group branch.
 
 
-## Creating Your Working Branch
-
-* Pick a branch name that includes your name or GitHub account.  For example,
-  I might pick the branch name `jswelling/add_my_name`
-* Check out your group's branch, for example the branch "group_1".
-* Do a `git pull` to get any updates
-* Create your branch and switch to it: `git checkout -b jswelling/add_my_name`
-  (but with the branch name you chose).
-
-
-## Do Your Edit
-
-* Use any editing tool you want. VSCode will work just fine.
-* Use `git add` and `git commit` to commit your change
-* Use `git push` to send your update to GitHub. It will give you an error
-  message because your branch doesn't exist on GitHub yet, but the error
-  message will tell you the correct command to use!
-
-
-## Create a Pull Requst for your Group Leader
-
-* Do this on the GitHub console web page.
-* Be sure to set the target of the merge to be your group's branch,
-  _not the main branch_.
-* Add your group leader as a _reviewer_ for your PR.
-
-
 I'll review each group leader's PR and merge the PRs back into Main.
 
 The tricky bit is that we are all working on the same file- `helloworld.py`.
@@ -383,23 +356,35 @@ git pull  # probably unnecessary but a good habit
 ```
 
 
-Check out the branch for your work group.  We'll say it's Group 3 here.
+##Check out the branch for your work group.
+We'll say it's Group 3 here.
 ```
 git checkout group_3
 ```
 The working directory now contains the current state of the `group_3` branch.
 
 
+
+## Creating Your Working Branch
 Create your own branch from `group_3`.  The new branch will keep your work
 separate from others until your group leader merges it.
-Groups I've worked with usually use the developer's name to help identify
-this work branch.  This is just convention;
-you can call it anything as long as there are no spaces in the name.
+
+Pick a branch name that includes your name or GitHub account.  For example,
+I might pick the branch name `jswelling/add_my_name` .  This is just custom
+and any unique name will do, but this helps to keep things straight.
+
+
+* Check out your group's branch, for example the branch "group_3".
+* Do a `git pull` to get any updates
+* Create your branch and switch to it:
 ```
 git checkout -b jswelling/add_my_name
 ```
+  (but with the branch name you chose).
 
 
+
+## Do Your Edit
 Edit the file to add your name, then add (stage) and commit the file.
 ```
 cd src/helloworld/
@@ -409,7 +394,13 @@ git commit -m "some message goes here"
 ```
 
 
-Push the resulting branch back up to GitHub.  The command below will
+* Use any editing tool you want. VSCode will work just fine.
+* Use `git add` and `git commit` to commit your change
+
+
+
+## Push the resulting branch back up to GitHub.
+The command below will
 actually produce a warning message, because GitHub doesn't know about the
 branch you created.  The warning will contain the correct command!
 ```
@@ -417,10 +408,15 @@ git push
 ```
 
 
-Go back to the repo on GitHub and create a PR to merge your change branch
-into your group branch (`group_3` in this case).  Be sure the "target" branch
-is set to your group branch, not the main branch! Request a review from your
-group leader.  We'll walk through this part in class.
+
+## Create a Pull Requst for your Group Leader
+
+* Do this on the GitHub console web page.
+* Be sure to set the target of the merge to be your group's branch,
+  _not the main branch_.
+* Add your group leader as a _reviewer_ for your PR.  We'll walk through this
+  part in class
+
 
 
 You're done with the exercise!  You can watch your group leader resolve any
