@@ -1,10 +1,12 @@
+ipython
+ipykernel
+ipympl
+jupyterlab
 matplotlib
 matplotlib-inline
 numpy
 scipy
 pandas
-ipython
-jupyterlab
 PyQt5
 plotnine
 seaborn
