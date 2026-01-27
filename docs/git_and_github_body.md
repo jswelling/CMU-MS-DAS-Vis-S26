@@ -288,10 +288,37 @@ Each group has a branch.  Working together, the group will update the branch.
 The group leader will submit a PR to merge the updated branch back into Main.
 
 
-* Each member will check out the current version of the branch, create a
-  new working branch, make an edit, and then push their edit back to GitHub.
+* Each member will check out the current version of the branch, __create a
+  new working branch__, make an edit, and then push their edit back to GitHub.
 * Each member will then submit a PR to their group leader for their edit.
 * The group leader will review the edit and merge the edit back into the group branch.
+
+
+## Creating Your Working Branch
+
+* Pick a branch name that includes your name or GitHub account.  For example,
+  I might pick the branch name `jswelling/add_my_name`
+* Check out your group's branch, for example the branch "group_1".
+* Do a `git pull` to get any updates
+* Create your branch and switch to it: `git checkout -b jswelling/add_my_name`
+  (but with the branch name you chose).
+
+
+## Do Your Edit
+
+* Use any editing tool you want. VSCode will work just fine.
+* Use `git add` and `git commit` to commit your change
+* Use `git push` to send your update to GitHub. It will give you an error
+  message because your branch doesn't exist on GitHub yet, but the error
+  message will tell you the correct command to use!
+
+
+## Create a Pull Requst for your Group Leader
+
+* Do this on the GitHub console web page.
+* Be sure to set the target of the merge to be your group's branch,
+  _not the main branch_.
+* Add your group leader as a _reviewer_ for your PR.
 
 
 I'll review each group leader's PR and merge the PRs back into Main.
@@ -329,6 +356,14 @@ Here are some useful links:
 * [VS Code Home on GitHub](https://github.com/microsoft/vscode)
 
 
+VSCode has great integration for git and GitHub, which you should use
+if you understand it.  Just be sure you are editing your branch, not the
+main branch or your group's branch!
+
+The easiest thing to do may be to open the __terminal__ window within
+VSCode and just use the terminal commands given in these notes.
+
+
 
 ## Steps To Follow
 
@@ -361,7 +396,7 @@ Groups I've worked with usually use the developer's name to help identify
 this work branch.  This is just convention;
 you can call it anything as long as there are no spaces in the name.
 ```
-git checkout -b welling/add_my_name
+git checkout -b jswelling/add_my_name
 ```
 
 
