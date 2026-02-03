@@ -1,14 +1,36 @@
-### Working with ggplot
+# Working with ggplot
 
-In this assignment you will use plotnine to experiment with the
-Grammar of Graphics.  It should be possible to do the assignment in a
+In this assignment you will use ggplot or plotnine to experiment with the
+Grammar of Graphics. The goal is to reproduce the Charles Minard visualization of Napoleon's
+march to Moscow.
+
+
+It should be possible to do the assignment in a
 jupyter notebook running the *generic_requirements.txt* environment.
 It is also possible to do this in **R** of course, and please do so if
 you would prefer.  When complete, hand in the notebook and an screen
 capture image of your two graphs via Canvas.
 
 
-The goal is to reproduce the Charles Minard visualization of Napoleon's march to Moscow using plotnine.
+
+### Never Get Involved In A Land War In Asia
+By
+[Charles Minard  (1781-1870) (Public Domain)](https://en.wikipedia.org/wiki/Charles_Joseph_Minard)
+[![Russia campaign of 1812](images/Minard.png)](https://en.wikipedia.org/wiki/Charles_Joseph_Minard#/media/File:Minard.png)
+
+
+This graphic has become iconic, and the ability to reproduce it is often taken
+as a test of a visualization tool.
+
+See [Re-Visions of Minard](https://www.datavis.ca/gallery/re-minard.php)
+for many examples.
+
+There is a copy of the necessary data in our data directory.
+
+
+
+Attempting Minard's Graphic Using *plotnine*<br>
+![Minard's graphic reproduced using plotnine](images/minard_with_plotnine.png)
 
 
 
