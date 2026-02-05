@@ -98,3 +98,4 @@ we look at:
 * **seaborn_mechanics.ipynb** to straighten out graph display on your system
 * **seaborn_themes.ipynb** to introduce Seaborn's styling interface
 * **review_categorical_data.ipynb** deals with handling categorical data in pandas
+* and finally **seaborn_idioms.ipynb** and **seaborn_idioms_2.ipynb** for the actual idioms
