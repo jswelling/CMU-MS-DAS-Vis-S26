@@ -19,7 +19,7 @@ GGPlot2 maps variables in the data to visual properties of the geoms (*aesthetic
 
 <https://rstudio.github.io/cheatsheets/html/data-visualization.html>
 
-![](images/clipboard-3262119780.png)
+![](../docs/images/ggplot-cheatsheet.png)
 
 # Practice w ggplot2
 
@@ -27,7 +27,7 @@ GGPlot2 maps variables in the data to visual properties of the geoms (*aesthetic
 
 ```{r}
 library(here)
-here::set_here("~/Documents/2_Areas/Teaching/information-visualization_MS-DAS_2026-01/CMU-MS-DAS-Vis-S26/")
+here::set_here("/path/to/project/folder/")
 here()
 
 library(tidyverse)
