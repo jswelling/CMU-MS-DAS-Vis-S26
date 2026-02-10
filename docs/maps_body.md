@@ -61,7 +61,7 @@ such a way that you can load them over http, so you'll probably need to pick a p
 on your local machine to store them.
 
 
-**Caution:**  Don't commit them to gihub!  Because of their size, they really slow
+**Caution:**  Don't commit them to GitHub!  Because of their size, they really slow
 down updates- for everyone using the repo.
 
 <span class="smalltext">I've done that.  Don't repeat my mistakes.</span>
@@ -141,7 +141,7 @@ peeling an orange, then flattening the peel".
 
 Projections have names, and identifying numbers.  We will look at a couple, but there
 [are](https://proj.org/operations/projections/index.html)
-[many](https://scitools.org.uk/cartopy/docs/latest/reference/projections.html)!
+[many](https://cartopy.readthedocs.io/stable/reference/projections.html)!
 
 GeoPandas stores projections using [CRS](https://pyproj4.github.io/pyproj/stable/api/crs/crs.html) objects
 from the [pyproj](https://github.com/pyproj4/pyproj) package.
