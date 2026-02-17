@@ -62,22 +62,11 @@ To Do (2):
 
 
 To Do (3):
-* GraphVis assignment:
-  * Add a test to the skeleton to detect invalid root directory setting
-  * Add tests to the skeleton to check get_rel_paths base case and special cases
-
-
-To Do (4):
-* Seaborn assignment: can we make a version that does more with categorical data? Like
-  continuous/non-continuous vs. color bars?
-
-
-To Do (4):
 * Tableau assignment: I'm not sure how to clarify the
   requirement that some data element needs to be "computed".
 
 
-To Do (5):
+To Do (4):
 * Intro/Syllabus: clarify that some points come from in-class exercises.
 
 
