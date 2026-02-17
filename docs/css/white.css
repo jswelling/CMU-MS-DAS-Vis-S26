@@ -126,6 +126,10 @@ body {
     width: 50%;
 }
 
+.reveal .image30 img {
+    width: 30%;
+}
+
 .reveal ol,
 .reveal dl,
 .reveal ul {

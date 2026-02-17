@@ -272,3 +272,57 @@ find:
 
 Try them with different layout engines.  **Note** that some may take a long
 time to do the layout, and you will have to zoom out to see the whole graph.
+
+
+
+## The Homework
+
+There is an assignment to try this out.  The skeleton code for the assignment
+is
+```
+graphviz_assignment_skeleton.ipynb
+```
+it provides some helpful tools for drawing GraphViz graphs in Jupyter notebooks.
+
+
+Let's pause and look at the assignment and skeleton code now.
+
+
+
+
+## Tableau Can Draw Force-Directed Graphs...
+
+...with a little help.  There are plug-ins that can teach it how.
+
+We're going to download the plug-in
+[Network by LaDataViz](https://exchange.tableau.com/products/998)
+from the Tableau Data Exchange.  Please open that page and download
+the `.trex` (Tableau Extension) file now.
+
+
+Once you have the `.trex` file and a network dataset (like the sample from
+the class data directory!), you can load the data into Tableau and draw
+a graph:
+
+
+1. Download the Tableau extension as a `.trex` file.
+2. In Tableau, load your data and create a Sheet. In the Marks area,
+   use the dropdown to select Viz Extensions -> Add Extension.
+3. In the resulting pop-up, click "Access Local Viz Extensions".
+   Find and select the .trex file you downloaded.
+4. Now it's just like any other Tableau interface, where you drag
+   variables onto dimensions of the visualization. 
+
+
+Choose to use an extension here...
+<span class="image30">
+![Tableau dialogs to use an extension module](images/tableau_use_extension.png)
+</span>
+
+
+And then choose to use your downloaded extension here.
+<span class="image30">
+![Tableau dialog to use the downloaded extension](images/tableau_use_extension_2.png)
+</span>
+
+
