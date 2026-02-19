@@ -1,6 +1,7 @@
 # Now We Need A Web Server ##
 
-In class, most visualization (and practically everything else!) takes
+Or at least, we need to better understand web servers.  In class, most visualization
+(and practically everything else!) takes
 place in Jupyter Notebooks.
 
 In the real world, most visualization (and practically everything else) takes
@@ -9,16 +10,19 @@ place in a web browser.
 We've reached the point where we need to look at tools beyond Jupyter.
 
 
-Please note that you are not expected to fully understand this web server.
-This is a visualization course, not a full stack web infrastructure course!
-So don't worry, and just try to understand what information is going where.
+(and note- Jupyter is a web server!)
+
+
+The goal here is not to understand the details of web servers.  It's
+enough to understand basically what they do, and how that fits with
+web pages that include visualizations.
 
 The goal is to learn to produce a visualization that will be served by a
 web server, not to be able to produce the web server itself.
 
 
 We are going to use a simple, limited web server called Streamlit to set up
-a convenient tool to use when we look at node-and-edge graphs.  There is a
+a convenient small example using matplotlib.  There is a
 separate track of the lecture describing Flask, a more general-purpose web
 server, for those interested.
 
@@ -28,7 +32,8 @@ server, for those interested.
 
 We are going to start a program on our local machines that runs outside of a
 notebook, and that responds to requests sent via http by sending web pages
-with visualizations on them.
+with visualizations on them.  Those who started the Streamlit GraphViz
+tool have already done this.
 
 
 This is only a subset of how a real web server works, but it is enough to
@@ -47,8 +52,8 @@ There are actually two examples of web servers here, written in
 * [Streamlit](https://streamlit.io/), which does much of the work for you, whether you like it or not.
 * [Flask](https://flask.palletsprojects.com/en/2.3.x/), a very pythonic, full-featured server
 
-There are others, like [Django](https://www.djangoproject.com/)) , which is a larger, more complex framework.
-Lots of web pages are now written in [React](https://react.dev/) .  Jupyter Notebook is itself partly a web server.
+There are others, like [Django](https://www.djangoproject.com/), which is a larger, more complex framework.
+Lots of web pages are now written in [React](https://react.dev/).  Jupyter Notebook is itself partly a web server.
 
 
 I use Streamlit when I want to quickly set up an interface to show something
@@ -59,9 +64,9 @@ Javascript connections to actual running elements in the browser.  This
 illusion gets hard to maintain.  At that point, I switch to Flask or React.
 
 
-Definitely clone the class Streamlit repo, which is
-[CMU-MS-DAS-Vis-Streamlit](https://github.com/jswelling/CMU-MS-DAS-Vis-Streamlit) .  We want to run it
-today, and use it to draw GraphViz graphs.
+If you haven't already cloned the Streamlit repo, please do so.  It is
+[CMU-MS-DAS-Vis-Streamlit](https://github.com/jswelling/CMU-MS-DAS-Vis-Streamlit) .
+You'll enjoy running it, honest.
 
 
 <!-- .slide: data-background="#cccccc" -->
@@ -272,19 +277,6 @@ beyond just displaying standard HTML.  For example, it is javascript code
 that allows us to use the
 [AJAX operation](https://www.w3schools.com/whatis/whatis_ajax.asp)
 that generates the matplotlib plot.
-
-
-
-## In-Class Exercises
-
-Add a Streamlit *checkbox* to control the presence of a legend.  Yes, this
-could have been used instead of the *radio* widgets in the existing page.
-
-Change the radio buttons that control the presence of the upper axis lines
-to a checkbox instead.
-
-Change the code so that a Streamlit *selectbox* can control the line style- a line,
-points only, or the line plus points.
 
 
 
