@@ -151,9 +151,6 @@ You can then just display that HTML.  There is even a special wrapper to show it
 Streamlit.
 
 
-I tried for a notebook to do this last night, and almost got it working.
-
-
 
 ### Let's look at the details of an example in Flask
 
