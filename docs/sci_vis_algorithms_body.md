@@ -166,7 +166,7 @@ of it.  Graphics hardware can do this *very* fast.
 
 
 #### An important application which doesn't involve volume data
-[*NeRFs* (Neural Radience Fields)](https://www.matthewtancik.com/nerf)
+[*NeRFs* (Neural Radiance Fields)](https://www.matthewtancik.com/nerf)
 are an amazing new application of
 volume rendering, where the 'volume' is actually encoded in an
 over-trained neural net.  If you are a gamer or interested in VR,
